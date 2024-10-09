@@ -1,0 +1,13 @@
+.button {
+    border: 1px solid black;
+    padding-block: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+@media (min-width: 800px) {
+    .button {
+        padding-block: 12px;
+    }
+}

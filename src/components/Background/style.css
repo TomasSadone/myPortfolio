@@ -1,0 +1,36 @@
+.background {
+    position: relative;
+    background-color: #fffef3;
+
+    > img {
+        position: absolute;
+        max-height: calc(100vh - var(--nav-height) - var(--padding-top));
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0.8;
+        filter: blur(10vw);
+        /* z-index: -1; */
+    }
+    .image-1 {
+        top: var(--padding-top-welcome);
+    }
+    .image-2 {
+        top: calc(100vh + var(--nav-height) + var(--padding-top-about-me));
+    }
+    .image-3 {
+        top: calc(200vh + var(--nav-height) + var(--padding-top-my-work));
+    }
+    .image-4 {
+        top: calc(300vh + var(--nav-height) + var(--padding-top-about-me));
+    }
+}
+
+.blur {
+    max-width: 100%;
+    /* background-color: #fffef34d; */
+}
+
+@media (min-width: 801px) {
+    .background {
+    }
+}

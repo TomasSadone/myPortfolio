@@ -1,0 +1,18 @@
+:root {
+    --color-base: #323232;
+    --color-primary: #5e5bff;
+    --color-accent: #dc3601;
+    --nav-height: 94px;
+    --padding-top-welcome: 199px;
+    --padding-top-about-me: 160px;
+    --padding-top-my-work: 220px;
+}
+
+@media (max-width: 800px) {
+    :root {
+        --nav-height: 52px;
+        --padding-top-welcome: 40px;
+        --padding-top-about-me: 80px;
+        --padding-top-my-work: 80px;
+    }
+}

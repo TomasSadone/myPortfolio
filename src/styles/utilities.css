@@ -1,0 +1,74 @@
+/* @import url(variables.css); */
+
+.bg-base {
+    background-color: var(--color-base);
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.bg-accent {
+    background-color: var(--color-accent);
+}
+
+.color-base {
+    color: var(--color-base);
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-accent {
+    color: var(--color-accent);
+}
+
+.w-400 {
+    font-weight: 400;
+}
+
+.w-300 {
+    font-weight: 300;
+}
+
+.w-500 {
+    font-weight: 500;
+}
+
+.w-600 {
+    font-weight: 600;
+}
+
+.w-700 {
+    font-weight: 700;
+}
+
+.w-800 {
+    font-weight: 800;
+}
+
+.w-900 {
+    font-weight: 900;
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 85%;
+    width: 1100px;
+}
+
+.container-sm {
+    max-width: 90%;
+    width: 800px;
+}
+
+/* @media (max-width: 800px) {
+    .container {
+        padding-inline: 24px;
+    }
+} */
+
+.francy {
+    font-family: Francy;
+}

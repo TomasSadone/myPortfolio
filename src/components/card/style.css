@@ -1,0 +1,9 @@
+.card {
+    padding-inline: 24px;
+    padding-block: 16px;
+    background-color: rgba(255, 255, 255, 0.32);
+    border: 1px solid var(--color-base);
+    border-radius: 10px;
+    backdrop-filter: blur(100px);
+    position: relative;
+}
