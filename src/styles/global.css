@@ -65,6 +65,7 @@ main {
         padding-block: 8px;
         background-color: rgba(255, 255, 255, 0.2);
         border-radius: 6px;
+        font-weight: 400;
         > span::before {
             animation: beating 2.5s infinite;
             content: '';
@@ -162,6 +163,9 @@ main {
     section {
         display: grid;
         gap: 16px;
+        > div > p + p {
+            margin-top: 16px;
+        }
     }
     .about-me__grid,
     .about-me__flex-vertical,
@@ -190,6 +194,7 @@ main {
     ul > li {
         margin-left: 16px;
         list-style-type: '// ';
+        font-weight: 400;
     }
     /* .about-me__grid-two-thirds {
         grid-template-columns: 2fr;
@@ -205,8 +210,22 @@ main {
     }
     @media (min-width: 801px) {
         padding-top: 160px;
+        h2 {
+            font-size: 48px;
+        }
+        h3 {
+            font-size: 32px;
+        }
+        section {
+            gap: 40px;
+        }
         & > * + * {
             margin-top: 80px;
+        }
+        .about-me__grid,
+        .about-me__flex-vertical,
+        .about-me__flex {
+            gap: 24px;
         }
         .about-me__grid {
             grid-template-columns: 2fr 1fr;
@@ -228,5 +247,98 @@ main {
                 width: 100%;
             }
         }
+    }
+}
+
+.my-work {
+    display: grid;
+    gap: 24px;
+    padding-top: 80px;
+
+    h2 {
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Francy';
+    }
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(323px, 1fr));
+        gap: 24px;
+        /* > article {
+            height: 564px;
+        } */
+    }
+    .project-card {
+        padding-block: 20px;
+        display: grid;
+        gap: 16px;
+
+        h3 {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        img {
+            border-radius: 7px;
+        }
+        .tags {
+            display: flex;
+            gap: 11px;
+            .card {
+                text-wrap: nowrap;
+                border-color: var(--color-accent);
+                color: var(--color-accent);
+                background: none;
+                font-size: 12px;
+                padding-inline: 8px;
+                padding-block: 6px;
+                border-radius: 4px;
+            }
+        }
+        > p {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        .accordion-children {
+            text-align: center;
+            padding-block: 8px;
+            display: flex;
+            gap: 8px;
+            > * {
+                flex: 1;
+            }
+        }
+    }
+    > p {
+        margin-inline: auto;
+        text-align: center;
+        font-size: 16px;
+        > a {
+            font-weight: 700;
+            color: var(--color-primary);
+            text-decoration: underline;
+            display: inline-flex;
+            gap: 12px;
+            align-items: center;
+        }
+    }
+    @media (min-width: 801px) {
+        gap: 64px;
+        font-size: 16px;
+        h2 {
+            font-size: 48px;
+        }
+        .project-card {
+            padding-block: 20px;
+            padding-inline: 24px;
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+    > p {
+        font-size: 20px;
     }
 }

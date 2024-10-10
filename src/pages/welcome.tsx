@@ -32,14 +32,12 @@ export const Welcome = () => {
             <Button
                 as='a'
                 href='mailto:tomassadonedev@gmail.com'
-                target='_blank'
                 className='welcome__button'
             >
                 Let's talk!
             </Button>
             <a
                 href='mailto:tomassadonedev@gmail.com'
-                target='_blank'
                 className='welcome__mail'
             >
                 tomassadonedev@gmail.com

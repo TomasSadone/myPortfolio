@@ -1,6 +1,7 @@
 import { Background } from './components/Background';
 import { Navbar } from './components/Navbar/navbar';
 import { AboutMe } from './pages/about-me';
+import { MyWork } from './pages/my-work';
 import { Welcome } from './pages/welcome';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
                 <main>
                     <Welcome />
                     <AboutMe />
+                    <MyWork />
                 </main>
             </Background>
         </>

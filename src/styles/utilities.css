@@ -55,19 +55,13 @@
 .container {
     margin-inline: auto;
     max-width: 85%;
-    width: 1100px;
+    width: 1366px;
 }
 
 .container-sm {
     max-width: 90%;
     width: 800px;
 }
-
-/* @media (max-width: 800px) {
-    .container {
-        padding-inline: 24px;
-    }
-} */
 
 .francy {
     font-family: Francy;

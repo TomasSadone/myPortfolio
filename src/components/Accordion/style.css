@@ -1,0 +1,30 @@
+.accordion.card {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-radius: 6px;
+}
+
+.chevron {
+    transition: all 0.2s;
+}
+
+.chevron.open {
+    transform: rotate(180deg);
+}
+
+.children {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 250ms;
+}
+
+.children > * {
+    overflow: hidden;
+}
+
+.children.open {
+    grid-template-rows: 1fr;
+}

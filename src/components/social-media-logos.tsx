@@ -11,19 +11,13 @@ export const SocialMediaLogos = ({
 }) => {
     return (
         <div className={`social-media-logos-${direction} ${className}`}>
-            <a
-                target='_blank'
-                href={LINKEDIN_URL}
-            >
+            <a href={LINKEDIN_URL}>
                 <img
                     src={linkedin}
                     alt=''
                 />
             </a>
-            <a
-                target='_blank'
-                href={GH_URL}
-            >
+            <a href={GH_URL}>
                 <img
                     src={gh}
                     alt=''

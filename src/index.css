@@ -17,6 +17,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
+    :target {
+        scroll-margin-top: var(--nav-height);
+    }
 }
 
 html {

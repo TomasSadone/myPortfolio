@@ -11,21 +11,23 @@ export const AboutMe = () => {
         >
             <section>
                 <h2>A litte bit about me</h2>
-                <p>
-                    Hi, I'm Tomas Sadone, a {age}-year-old Full Stack Developer.{' '}
-                    <br />I began learning programming during the pandemic and
-                    have been working professionally since January 2022. <br />{' '}
-                    I'm dedicated to continuous growth as a developer with the
-                    core goal of improving system performance, mastering design
-                    principles, and ensuring my solutions are both scalable and
-                    robust.
-                </p>
-                <p>
-                    If you're interested in what I can offer,{' '}
-                    <span className='color-primary w-700'>
-                        feel free to reach out!
-                    </span>
-                </p>
+                <div>
+                    <p>
+                        Hi, I'm Tomas Sadone, a {age}-year-old Full Stack
+                        Developer. <br />I began learning programming during the
+                        pandemic and have been working professionally since
+                        January 2022. <br /> I'm dedicated to continuous growth
+                        as a developer with the core goal of improving system
+                        performance, mastering design principles, and ensuring
+                        my solutions are both scalable and robust.
+                    </p>
+                    <p>
+                        If you're interested in what I can offer,{' '}
+                        <span className='color-primary w-700'>
+                            feel free to reach out!
+                        </span>
+                    </p>
+                </div>
             </section>
             <section>
                 <h3>Skills</h3>
