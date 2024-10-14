@@ -1,6 +1,6 @@
-import gh from '../assets/gh.svg';
-import linkedin from '../assets/linkedin.svg';
-import { LINKEDIN_URL, GH_URL } from '../constants';
+import gh from '../../assets/gh.svg';
+import linkedin from '../../assets/linkedin.svg';
+import { LINKEDIN_URL, GH_URL } from '../../constants';
 
 export const SocialMediaLogos = ({
     direction,

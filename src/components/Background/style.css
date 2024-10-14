@@ -1,6 +1,7 @@
 .background {
     position: relative;
     background-color: #fffef3;
+    /* overflow-y: hidden; */
 
     > img {
         position: absolute;
@@ -9,7 +10,6 @@
         transform: translateX(-50%);
         opacity: 0.8;
         filter: blur(10vw);
-        /* z-index: -1; */
     }
     .image-1 {
         top: var(--padding-top-welcome);
@@ -27,10 +27,4 @@
 
 .blur {
     max-width: 100%;
-    /* background-color: #fffef34d; */
-}
-
-@media (min-width: 801px) {
-    .background {
-    }
 }

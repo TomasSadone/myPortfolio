@@ -1,5 +1,5 @@
 import { Button } from '../components/Button/Button';
-import { SocialMediaLogos } from '../components/social-media-logos';
+import { SocialMediaLogos } from '../components/SocialMediaLogos/social-media-logos';
 
 export const Welcome = () => {
     return (

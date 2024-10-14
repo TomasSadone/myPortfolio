@@ -27,7 +27,7 @@ export const Background = ({ children }: { children: React.ReactNode }) => {
                 className='image-4'
                 alt=''
             />
-            <div className='blur'>{children}</div>
+            <div>{children}</div>
         </div>
     );
 };

@@ -38,7 +38,7 @@ h6 {
 
 p {
     max-width: 75ch;
-    text-wrap: pretty;
+    text-wrap: balance;
 }
 
 a {
