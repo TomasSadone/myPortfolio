@@ -20,7 +20,7 @@ header::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 94px;
+    height: var(--nav-height);
     /* overflow-x: hidden; */
 }
 
@@ -33,7 +33,7 @@ header::before {
 .cv-cat {
     display: flex;
     gap: 8px;
-    padding-block: 12px;
+    padding-block: 10px;
     padding-inline: 38px;
 }
 
