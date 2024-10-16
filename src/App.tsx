@@ -36,6 +36,7 @@ function App() {
                     <MyWork />
                 </main>
             </Background>
+            <span id='contact'></span>
             {scrolledEnd ? <Error /> : null}
         </>
     );
